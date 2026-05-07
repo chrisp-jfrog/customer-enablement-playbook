@@ -41,8 +41,8 @@ permalink: /
       <span class="stat-label">Ramp Time Reduction</span>
     </div>
   </div>
-
-  <h2>The Work</h2>
+  <br>
+    <h2>The Work</h2>
   <p>
     I sit at the intersection of technical depth and customer empathy. My role is to understand what a customer is trying to build, translate that into a working architecture inside our product, and then make sure their team has everything they need to operate it independently.
   </p>
