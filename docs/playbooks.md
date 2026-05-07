@@ -62,7 +62,7 @@ permalink: /playbooks/
 
   <h3>Contribution Guidelines</h3>
   <p>
-    To add or update a playbook, open a <a href="https://github.com/your-org/customer-enablement-playbook/issues/new/choose">Content Request issue</a> or submit a pull request directly. All submissions are reviewed against the standards in <a href="https://github.com/your-org/customer-enablement-playbook/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.
+    To add or update a playbook, open a <a href="https://github.com/chrisp-jfrog/customer-enablement-playbook/issues/new/choose">Content Request issue</a> or submit a pull request directly. All submissions are reviewed against the standards in <a href="https://github.com/chrisp-jfrog/customer-enablement-playbook/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.
   </p>
 
   <h3>What's Coming</h3>
@@ -110,7 +110,7 @@ permalink: /playbooks/
   </table>
 
   <p>
-    Have a playbook your team needs? <a href="https://github.com/your-org/customer-enablement-playbook/issues/new?template=content_request.yml">Open a content request →</a>
+    Have a playbook your team needs? <a href="https://github.com/chrisp-jfrog/customer-enablement-playbook/issues/new?template=content_request.yml">Open a content request →</a>
   </p>
 
 </div>

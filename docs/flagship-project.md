@@ -190,7 +190,7 @@ permalink: /flagship-project/
     <li>Go to your repository → <strong>Settings</strong> → <strong>Pages</strong></li>
     <li>Under <em>Source</em>, set branch to <code>main</code> and folder to <code>/docs</code></li>
     <li>Click <strong>Save</strong></li>
-    <li>Your site will be live at <code>https://your-org.github.io/customer-enablement-playbook</code> within 2–3 minutes</li>
+    <li>Your site will be live at <code>https://chrisp-jfrog.github.io/customer-enablement-playbook</code> within 2–3 minutes</li>
   </ol>
 
   <p>

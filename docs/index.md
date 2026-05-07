@@ -106,7 +106,7 @@ permalink: /
       <p>Live onboarding checklists, escalation runbooks, and customer email templates.</p>
       <span class="card-link">Browse playbooks →</span>
     </a>
-    <a class="card" href="https://github.com/your-org/customer-enablement-playbook">
+    <a class="card" href="https://github.com/chrisp-jfrog/customer-enablement-playbook">
       <span class="card-icon">⚙️</span>
       <h4>GitHub Repository</h4>
       <p>Full source, issue templates, contribution guidelines, and version history.</p>
