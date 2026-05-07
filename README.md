@@ -2,6 +2,12 @@
 
 > A single source of truth for onboarding, enablement, and customer success — so every team member runs the same playbook.
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/your-org/customer-enablement-playbook)](https://github.com/your-org/customer-enablement-playbook/commits/main)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-brightgreen)](https://your-org.github.io/customer-enablement-playbook)
+[![Code of Conduct](https://img.shields.io/badge/conduct-Contributor%20Covenant-ff69b4)](./CODE_OF_CONDUCT.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 ---
 
 ## The Problem
@@ -46,7 +52,9 @@ cd customer-enablement-playbook
 
 | I want to… | Go here |
 |---|---|
-| Onboard a new customer | [`/docs/onboarding`](./docs/onboarding/) |
+| Onboard a new customer | [`Onboarding Checklist`](./docs/onboarding/customer-onboarding-checklist.md) |
+| Handle an escalation or incident | [`Escalation Runbook`](./docs/guides/escalation-runbook.md) |
+| Send a customer email | [`Email Templates`](./docs/guides/email-templates.md) |
 | Run a QBR or success review | [`/src/templates`](./src/templates/) |
 | Look up a process or term | [`/docs/reference`](./docs/reference/) |
 | Automate a repetitive task | [`/src/scripts`](./src/scripts/) |
