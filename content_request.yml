@@ -1,0 +1,50 @@
+name: 📝 Content Request
+description: Request new playbook content, a template, or a guide
+title: "[Content]: "
+labels: ["content-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request new content — playbooks, templates, guides, or reference material.
+
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: What type of content is needed?
+      options:
+        - Playbook
+        - Template
+        - How-to Guide
+        - Reference / Glossary
+        - Onboarding Flow
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What should this content cover?
+      description: Describe the topic, use case, or customer scenario this content should address.
+      placeholder: A QBR template for enterprise customers in the financial services vertical...
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is the intended audience?
+      description: CSMs, SEs, new hires, customers, etc.
+    validations:
+      required: false
+
+  - type: textarea
+    id: urgency
+    attributes:
+      label: Why is this needed? Any deadline?
+      description: Business context, upcoming customer engagement, or launch date if relevant.
+    validations:
+      required: false

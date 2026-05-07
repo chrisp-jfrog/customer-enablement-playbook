@@ -1,0 +1,45 @@
+name: 🐛 Bug Report
+description: Report broken content, dead links, or incorrect information
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue. Please fill out the sections below so we can address it quickly.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is the issue?
+      description: File path or section (e.g. `docs/onboarding/README.md`, `src/templates/qbr-template.md`)
+      placeholder: docs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe the bug clearly — broken link, incorrect information, missing content, etc.
+      placeholder: The link in step 3 of the onboarding guide returns a 404...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it say or do?
+      description: Describe the correct or expected content/behavior.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, related issues, or any other relevant details.
+    validations:
+      required: false
