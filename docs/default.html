@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      Customer <span>Enablement</span> Playbook
+    </a>
+    <nav>
+      <ul class="site-nav">
+        {% for item in site.nav %}
+        <li>
+          <a href="{{ item.url | relative_url }}"
+             {% if page.url == item.url %}class="active"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <span>© {{ 'now' | date: "%Y" }} Customer Enablement Team — Licensed under <a href="{{ '/LICENSE' | relative_url }}">Apache 2.0</a></span>
+    <span>
+      <a href="https://github.com/your-org/customer-enablement-playbook">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="{{ '/SECURITY' | relative_url }}">Security</a>
+      &nbsp;·&nbsp;
+      <a href="{{ '/CODE_OF_CONDUCT' | relative_url }}">Code of Conduct</a>
+    </span>
+  </footer>
+
+</body>
+</html>
